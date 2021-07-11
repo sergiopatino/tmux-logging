@@ -26,7 +26,7 @@ Toggle (start/stop) logging in the current pane.
 
 ### 2. "Screen Capture"
 
-Save visible text, in the current pane. Equivalent of a "texual screenshot".
+Save visible text, in the current pane. Equivalent of a "textual screenshot".
 
 * Key binding: `prefix + alt + p`
 * File name format: `tmux-screen-capture-#{session_name}-#{window_index}-#{pane_index}-%Y%m%dT%H%M%S.log`
@@ -85,7 +85,7 @@ You should now have all `tmux-logging` key bindings defined.
 
 ### Installing `ansifilter` (recommended for OSX users)
 
-If you're on OSX, it is recommeneded to install `ansifilter`:
+If you're on OSX, it is recommended to install `ansifilter`:
 `$ brew install ansifilter`
 
 [ansifilter](http://www.andre-simon.de/doku/ansifilter/en/ansifilter.php)
@@ -108,6 +108,10 @@ log as above when this plugin is used:
 
 ![proper log output](/screenshots/proper_log_output.png)
 
+### Configuration Docs
+
+- [Changing default options](docs/configuration.md).
+
 ### Other plugins
 
 You might also find these useful:
@@ -118,9 +122,6 @@ You might also find these useful:
   bindings for controlling panes
 - [sessionist](https://github.com/tmux-plugins/tmux-sessionist) - lightweight
   tmux utils for switching and creating sessions
-
-You might want to follow [@brunosutic](https://twitter.com/brunosutic) on
-twitter if you want to hear about new tmux plugins or feature updates.
 
 ### License
 
